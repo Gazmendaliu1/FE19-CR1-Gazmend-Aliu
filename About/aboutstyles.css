@@ -5,12 +5,11 @@ body {
 
 nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   height: 100px;
   width: 400px;
-  margin-left: 90vh;
-  margin-top: 150px;
+ 
 }
 nav h2 {
   font-size: 50px;
@@ -22,7 +21,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   width: 100px;
-  margin-left: 40%;
+  margin-left: 4%;
 }
 
 .main {
@@ -32,11 +31,30 @@ nav h2 {
   align-items: center;
   width: 700px;
   height: 300px;
-  margin-left: 45%;
+  margin-left: 5%;
 }
 
 .footer {
+  border: 1px solid red;
   height: 50px;
-  width: 500px;
-  margin-left: 50%;
-}/*# sourceMappingURL=aboutstyles.css.map */
+  width: 300px;
+  margin-left: 10%;
+}
+
+.btn {
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-weight:900;
+  box-shadow: 0 0 10px;
+}
+
+
+
+/*# sourceMappingURL=aboutstyles.css.map */
