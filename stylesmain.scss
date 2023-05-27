@@ -142,5 +142,16 @@ position: relative;
   color: whitesmoke;
   font-size: 20px;
  }
+@media screen and (width < 1150px){
+  .main {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+}
+@media screen and (width < 420px){
+  .main {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+  }
 
  /* Bottom Footer 1/2/3    Start*/
