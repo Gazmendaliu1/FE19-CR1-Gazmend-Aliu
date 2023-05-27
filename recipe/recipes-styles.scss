@@ -25,6 +25,20 @@ nav {
   width: 50%;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: beige;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 
 @media screen and (width<1150px) {
   .container {
