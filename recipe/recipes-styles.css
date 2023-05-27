@@ -24,8 +24,6 @@ nav h2 {
   width: 50%;
 }
 
-
-
 @media screen and (width < 1150px) {
   .container {
     grid-template-rows: repeat(2, 1fr);
