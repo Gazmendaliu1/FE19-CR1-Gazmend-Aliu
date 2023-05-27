@@ -24,6 +24,8 @@ nav {
   border-radius: 25px;
   width: 50%;
 }
+
+
 @media screen and (width<1150px) {
   .container {
     grid-template-rows: repeat(2,1fr);
