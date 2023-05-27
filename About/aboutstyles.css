@@ -1,0 +1,42 @@
+body {
+  background-image: url("bgimg5.jpg");
+  background-position: 0 1000px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  margin-left: 90vh;
+  margin-top: 150px;
+}
+nav h2 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: 40%;
+}
+
+.main {
+  text-shadow: 0 0 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  margin-left: 45%;
+}
+
+.footer {
+  height: 50px;
+  width: 500px;
+  margin-left: 50%;
+}/*# sourceMappingURL=aboutstyles.css.map */

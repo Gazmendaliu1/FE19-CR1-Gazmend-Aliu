@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Head Start*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header h2 {
+  margin-left: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.header .search-logo {
+  width: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+/* Top Head END*/
+/*Nav BAr Start*/
+.navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-left: white;
+  border-right-color: white;
+  height: 50px;
+  align-items: center;
+}
+
+.navbar a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 18px;
+  font-family: 600;
+}
+
+/*Nav BAr end*/
+/* MAIN Ppart  START*/
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  box-shadow: 0px 0px 10px;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main .overlay {
+  position: relative;
+}
+
+.main p {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  transition: all 0.3s;
+  opacity: 0;
+  width: 100%;
+  top: 0%;
+  color: white;
+}
+
+.main :hover p {
+  opacity: 0.6;
+  padding-top: 60px;
+}
+
+/* MAIN Ppart  END*/
+/* Bottom Footer 1/2/3    Start*/
+/*footer1*/
+.bottom-footer1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+}
+
+.bottom-footer1 a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 15px;
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+.bottom-footer1 .a4 {
+  border: none;
+}
+
+.bottom-footer1 p {
+  color: white;
+}
+
+/*footer2*/
+.bottom-footer2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  height: 25px;
+  align-items: center;
+}
+
+/* for the 3rd logo i didt know the cat logo what it is so i just puted a cat logo :) */
+.bottom-footer2 .fb {
+  height: 25px;
+  margin-right: 20px;
+}
+
+.bottom-footer2 .in {
+  height: 20px;
+}
+
+.bottom-footer2 .cat {
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/*footer3*/
+.bottom-footer3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  height: 50px;
+}
+
+.bottom-footer3 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+/* Bottom Footer 1/2/3    Start*//*# sourceMappingURL=stylesmain.css.map */
